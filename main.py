@@ -43,3 +43,30 @@ for x in student_scores:
 
 print(f"The highest score in the class is: {Highest}")
 ##########################################################################
+#add all numbers from 1-100
+total = 0
+for number in range(1, 101):
+  total += number
+print(total)
+##########################################################################
+#add all even numbers from 1-100
+target = int(input()) # Enter a number between 0 and 1000
+# Write your code here 👇
+
+total = 0
+for x in range(2,target + 1):
+  if x % 2 == 0:
+    total += x
+print(total)
+##########################################################################
+# FizzBuzz game
+target = int(input()) # Enter a number between 0 and 1000
+# 🚨 Do not change the code above ☝️
+
+# Write your code here 👇
+
+total = 0
+for x in range(2,target + 1):
+  if x % 2 == 0:
+    total += x
+print(total)
